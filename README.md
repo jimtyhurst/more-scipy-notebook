@@ -1,6 +1,6 @@
 # README
 
-This Docker image includes some Python libraries in addition to those already included in the [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook):
+This [Docker image](./Dockerfile) installs a few more Python libraries to a Jupyter notebook server, in addition to those included in the [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook), which already includes many popular libraries for machine learning:
 
 * [Documentation of jupyter/scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
 * [Dockerfile for jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook/dockerfile)
@@ -10,6 +10,8 @@ From a shell in the directory that contains the `Dockerfile`:
 ```{bash}
 docker build --rm -t more-scipy-notebook .
 ```
+
+That command creates a [Docker](https://www.docker.com/) image named `more-scipy-notebook`, using the `Dockerfile` in the current working directory (thus, the `.` at the end of the command).
 
 ## To Run:
 ```{bash}
