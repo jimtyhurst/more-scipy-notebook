@@ -16,7 +16,7 @@ RUN pip install \
     'Unidecode==1.1.1' \
     'jupyter_contrib_nbextensions==0.5.1' \
     'geonamescache==1.1.0' \
-    'ggplot==0.11.5' \
+    'plotnine==0.6.0' \
     'yellowbrick==1.1' \
     'nltk==3.5' \
     'spacy==2.2.4' \

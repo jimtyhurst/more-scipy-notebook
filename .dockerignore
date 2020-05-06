@@ -1,5 +1,4 @@
 # dev environment
 .git
 build.sh
-run.sh
-exec.sh
+
