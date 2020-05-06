@@ -18,6 +18,9 @@ RUN pip install \
     'geonamescache==1.1.0' \
     'ggplot==0.11.5' \
     'yellowbrick==1.1' \
+    'nltk==3.5' \
+    'spacy==2.2.4' \
+    'gensim==3.8.3' \
     && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
