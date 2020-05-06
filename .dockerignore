@@ -1,4 +1,5 @@
-# Documentation
-README.md
-LICENSE
-
+# dev environment
+.git
+build.sh
+run.sh
+exec.sh
