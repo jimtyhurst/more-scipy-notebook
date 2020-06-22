@@ -13,7 +13,7 @@ LABEL maintainer="Jim Tyhurst <jim@tyhurst.com>"
 
 RUN pip install \
     'pytest==5.4.2' \
-    'scikit-plot-0.3.7' \
+    'scikit-plot==0.3.7' \
     'black==19.10b0' \
     'Unidecode==1.1.1' \
     'jupyter_contrib_nbextensions==0.5.1' \
