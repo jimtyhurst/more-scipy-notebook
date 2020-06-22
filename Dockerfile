@@ -12,6 +12,7 @@ FROM jupyter/scipy-notebook:dc9744740e12
 LABEL maintainer="Jim Tyhurst <jim@tyhurst.com>"
 
 RUN pip install \
+    'ipython-pytest==0.0.1' \
     'pytest==5.4.2' \
     'scikit-plot==0.3.7' \
     'black==19.10b0' \
