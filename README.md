@@ -31,3 +31,9 @@ docker run -it --rm \
 * To stop the container:
     * Type `<CTRL>c` in the shell window; _or_
     * Click on the `Quit` button in the upper right of the Jupyter file browser.
+
+## LICENSE
+Copyright (c) 2020 Jim Tyhurst
+
+Distributed under the terms of the Modified BSD License (BSD-3-Clause).
+
