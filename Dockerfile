@@ -7,7 +7,7 @@
 #
 # I added a few more libraries in this Dockerfile that I need
 # for some machine learning applications.
-FROM jupyter/scipy-notebook:1a66dd36ff82
+FROM jupyter/scipy-notebook:399cbb986c6b
 
 LABEL maintainer="Jim Tyhurst <jim@tyhurst.com>"
 
@@ -20,9 +20,9 @@ RUN pip install \
     'jupyter_contrib_nbextensions==0.5.1' \
     'geonamescache==1.2.0' \
     'plotnine==0.7.1' \
-    'yellowbrick==1.1' \
+    'yellowbrick==1.2' \
     'nltk==3.5' \
-    'spacy==2.3.2' \
+    'spacy==2.3.5' \
     'gensim==3.8.3' \
     && \
     fix-permissions $CONDA_DIR && \
