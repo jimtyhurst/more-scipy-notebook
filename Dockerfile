@@ -7,15 +7,15 @@
 #
 # I added a few more libraries in this Dockerfile that I need
 # for some machine learning applications.
-FROM jupyter/scipy-notebook:399cbb986c6b
+FROM jupyter/scipy-notebook:1a66dd36ff82
 
 LABEL maintainer="Jim Tyhurst <jim@tyhurst.com>"
 
 RUN pip install \
     'ipython-pytest==0.0.1' \
-    'pytest==6.0.1' \
+    'pytest==6.2.0' \
     'scikit-plot==0.3.7' \
-    'black==19.10b0' \
+    'black==20.8b1' \
     'Unidecode==1.1.1' \
     'jupyter_contrib_nbextensions==0.5.1' \
     'geonamescache==1.2.0' \
